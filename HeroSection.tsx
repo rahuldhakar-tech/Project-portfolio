@@ -1,0 +1,1 @@
+// Hero section code here (as provided earlier)
