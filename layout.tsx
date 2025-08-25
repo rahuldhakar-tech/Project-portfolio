@@ -1,15 +1,14 @@
-import './globals.css'
-import type { ReactNode } from 'react'
+import "./globals.css";
 
 export const metadata = {
-  title: "Rahul Singh Dhakar — Portfolio",
-  description: "Data Analytics & Operations Specialist",
-}
+  title: "Portfolio - Rahul Singh Dhakar",
+  description: "Data Analytics & Operations Specialist Portfolio",
+};
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-background text-foreground">{children}</body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
